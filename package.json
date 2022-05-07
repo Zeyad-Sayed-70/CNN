@@ -1,0 +1,25 @@
+{
+  "name": "secondnext",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "axios": "^0.27.0",
+    "bootstrap": "^5.1.3",
+    "next": "12.1.5",
+    "react": "18.0.0",
+    "react-bootstrap": "^2.3.0",
+    "react-bootstrap-icons": "^1.8.2",
+    "react-dom": "18.0.0",
+    "react-icons": "^4.3.1"
+  },
+  "devDependencies": {
+    "eslint": "8.14.0",
+    "eslint-config-next": "12.1.5"
+  }
+}
