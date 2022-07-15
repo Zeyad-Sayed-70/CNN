@@ -7,7 +7,7 @@ export const Newz = ({ articles }) => {
   let n = 0;
   return (
     <div className={styles.grid}>
-      <Container className="d-flex flex-wrap">
+      <Container className={`${styles.news_container} d-flex flex-wrap`}>
         {articles?.map((news, ind) => {
           if (ind % 6 === 0) {
             isBig = true;
